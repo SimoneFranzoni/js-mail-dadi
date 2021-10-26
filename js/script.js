@@ -1,9 +1,9 @@
 const eMail = prompt("Inserire eMailS");
 
 const eMailist = [
-    simonefranzoni99@gmail.com;
-    qualcosa@hotmail.it;
-    franzoni1999@gmail.com;
+    'simonefranzoni99@gmail.com',
+    'qualcosa@hotmail.it',
+    'franzoni1999@gmail.com',
 ];
 
 for (let i = 0; i <     eMailist.length; i++ ){
