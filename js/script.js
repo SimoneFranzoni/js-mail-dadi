@@ -1,38 +1,10 @@
 const eMail = prompt("Inserire eMailS");
 
-const eMailist = ['Anthony',
-'Andrea B',
-'Federico',
-'Cristian',
-'Davide T',
-'Alberto',
-'Mauro',
-'Matteo D',
-'Michele',
-'Matteo F',
-'Andrea F',
-'Simone P',
-'Mattia G',
-'Larisa',
-'Manuel',
-'Matteo L',
-'Francesco',
-'Morena',
-'Mattia M',
-'Simone F',
-'Mariano',
-'Vitali',
-'Gianluca',
-'Giuseppe',
-'Salvatore',
-'Giada',
-'Giulia Sa',
-'Benjamin',
-'Giulia So',
-'Luca S',
-'Davide C',
-'Luigi',
-'Luca V'];
+const eMailist = [
+    simonefranzoni99@gmail.com;
+    qualcosa@hotmail.it;
+    franzoni1999@gmail.com;
+];
 
 for (let i = 0; i <     eMailist.length; i++ ){
     if(eMail === eMailist[i]){
