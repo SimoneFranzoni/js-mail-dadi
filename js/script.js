@@ -5,7 +5,7 @@ const eMailist = [
     'qualcosa@hotmail.it',
     'franzoni1999@gmail.com',
 ];
-
+/*
 for (let i = 0; i <     eMailist.length; i++ ){
     if(eMail === eMailist[i]){
         const nome = document.getElementById("control");
@@ -18,6 +18,24 @@ for (let i = 0; i <     eMailist.length; i++ ){
     }
 }
 
+*/
+
+let valideMail = false;
+
+for (let i = 0; i < eMailist.length; i++ ){
+    if(eMail === eMailist[i]){
+        valideMail = true
+    }
+}
+
+if(valideMail == true){
+    const nome = document.getElementById("control");
+    control.innerHTML = 'eMail valida';
+}
+else{
+    const nome = document.getElementById("control");
+    control.innerHTML = 'eMail non valida';
+}
 
 let pg = Math.floor(Math.random() * 6) + 1;
 let cpu = Math.floor(Math.random() * 6) + 1;
